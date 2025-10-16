@@ -27,7 +27,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* ✅ AdSense Script */}
         <Script
           id="google-adsense"
           async
