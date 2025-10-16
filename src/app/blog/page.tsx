@@ -26,8 +26,8 @@ export default function BlogPage() {
               >
                 <div className="relative w-full h-52">
                   <Image
-                    src={post?.image}
-                    alt={post?.title}
+                    src={post?.image || "/default-image.jpg"}
+                    alt={post?.title || "Blog image"}
                     fill
                     className="object-cover"
                   />
