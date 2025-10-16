@@ -35,8 +35,8 @@ export default function BlogDetailsPage() {
       >
         <div className="relative w-full h-72 rounded-2xl overflow-hidden mb-10">
           <Image
-            src={post?.image}
-            alt={post?.title}
+            src={post?.image || "/default-image.jpg"}
+            alt={post?.title || "Blog image"}
             fill
             className="object-cover"
           />
