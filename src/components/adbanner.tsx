@@ -21,7 +21,7 @@ export default function AdBanner({
 }: AdBannerProps) {
   useEffect(() => {
     try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      (window.adsbygoogle = window.adsbygoogle || [])?.push({});
     } catch (err) {
       console.error("AdSense error:", err);
     }

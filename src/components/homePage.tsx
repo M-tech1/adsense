@@ -207,7 +207,7 @@ export default function HomePage() {
             Explore All Tools
           </Link>
         </section>
-
+        {/* <AdBanner adSlot="1234567890" /> */}
         {/* Footer */}
         <footer className="py-10 text-center text-gray-500 text-sm border-t">
           <p>
